@@ -13,18 +13,18 @@ public class Task1_1 {
 
         // ①int型の hogeInt という名前の変数を宣言し、値「50」で初期化
         byte hogeInt = 50;
-        System.out.println(hogeInt);
+        
         // ②Stringクラスの hogeString という名前の変数を宣言、値「テスト」で初期化
         String hogeString = "テスト";
-        System.out.println(hogeString);
+        
         // ③下記の処理について、何をしているのかコメントを記入してください
         // [double型を使い、hogeDoublを宣言する。初期値は0.2]
-        System.out.println(double HogeDouble = 0.2);
+        double hogeDoubl = 0.2;
 
         // ④変数 hogeInt を値「100」で上書き
-        System.out.println("byte = hogeInt" = + 100);
+        hogeInt = 100;
         // ⑤変数 hogeString を値「合格」で上書き
-        System.out.println(String hogeString = "合格");
+        hogeString = "合格";
         // ⑥変数 hogeInt の値を表示
         System.out.println(hogeInt);
         // ⑦下記の処理について、何をしているのかコメントを記入してください
