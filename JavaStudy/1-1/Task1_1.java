@@ -12,7 +12,7 @@ public class Task1_1 {
     public static void main(String[] args) {
 
         // ①int型の hogeInt という名前の変数を宣言し、値「50」で初期化
-        byte hogeInt = 50;
+        int hogeInt = 50;
         
         // ②Stringクラスの hogeString という名前の変数を宣言、値「テスト」で初期化
         String hogeString = "テスト";
@@ -32,7 +32,7 @@ public class Task1_1 {
         System.out.println(hogeString);
 
         // ⑧変数 hogeDouble の値を表示
-        System.out.println(hogeDouble);
+        System.out.println(hogeDoubl);
 
     }
 }
