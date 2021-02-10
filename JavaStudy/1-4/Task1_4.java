@@ -30,19 +30,19 @@ public class Task1_4 {
     public static void main(String[] args) {
         // 以下の変数「name（名前）」「pass（パスワード）」を使用して、②〜⑤の条件を満たす処理を記述してください。
         // 名前とパスワードは画面からの入力値だと想定してみましょう。
-         String name = "alice" ;
-         String pass = "pass" ;
+         boolean name = true ;
+         boolean pass = true ;
         // ② 名前が「 alice 」、パスワードが「 pass 」であった場合、「 ログイン成功です 」と出力してください。
-        if( name.equals("alice") && pass.equals("pass")) {
+        if( name && pass) {
             System.out.println("ログイン成功です。") ;
         }
         // ③ 名前のみ正しい場合、「 パスワードに誤りがあります。 」と出力してください。
-        else if (name == "alice"){
+        else if (name){
           System.out.println("パスワードに誤りがあります。")  ; 
         }
 
         // ④ パスワードのみ正しい場合、「 名前に誤りがあります。 」と出力してください。
-        else if (pass == "pass"){
+        else if (pass){
           System.out.println("名前に誤りがあります。")  ; 
         }
 
