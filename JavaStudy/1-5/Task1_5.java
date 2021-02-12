@@ -10,9 +10,9 @@ public class Task1_5 {
     public static void main(String[] args) {
 
         // ① 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fluits を作成してください。
-        String [] fluits = {"みかん","りんご","ぶどう","メロン"};
+        String fluits []= {"みかん","りんご","ぶどう","メロン"};
         // ② for文を使って①で作成した配列を出力しなさい。
-        for (String i = 0 ; i <= fluits.length ; i++){
+        for (int i =0 ; i < fluits.length ; i++){
             System.out.println(fluits [i]);
         }
         System.out.println();
@@ -40,10 +40,11 @@ public class Task1_5 {
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
         for (int a = 1; a <= 9; a++){
+          System.out.print(a+"||");
             for(int j = 1; j <= 9; j++){
-                System.out.print(a*j+"|");
-            }
-         System.out.println(a+"||");   
+                System.out.print((a*j)+"|");
+           }
+         System.out.println();   
     }
   }
 
